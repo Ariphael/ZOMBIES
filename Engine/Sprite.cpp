@@ -29,8 +29,8 @@ void Sprite::DrawZombie(int x, int y, Graphics& gfx)
 
 void Sprite::DrawTank(float X, float Y, Graphics & gfx)
 {
-	int x = floor(X);
-	int y = floor(Y);
+	float x = floor(X);
+	float y = floor(Y);
 	//Barrel
 	for (int w = 0; w <= 9; w++) {
 		for (int h = 0; h <= 25; h++) {
